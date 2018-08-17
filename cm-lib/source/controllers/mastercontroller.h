@@ -11,8 +11,11 @@ class CMLIBSHARED_EXPORT MasterController : public QObject
 {
   Q_OBJECT
 
+  Q_PROPERTY( QString ui_welcomeMessage MEMBER welcomeMessage CONSTANT )
+
 public:
   explicit MasterController(QObject* parent = nullptr);
+  QString welcomeMessage = "This is MasterController to Major Tom";
 };
 
 }}
