@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 
   QGuiApplication app(argc, argv);
 
+
   qmlRegisterType<cm::controllers::MasterController>("CM", 1, 0, "MasterController");
   cm::controllers::MasterController masterController;
 
