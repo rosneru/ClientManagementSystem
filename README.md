@@ -8,8 +8,8 @@ C++, and QML* by *Nicholas Sherriff*.
 
 A quote from the book:
 
-*We will work on will be a **generic client management system**. It will 
-be something that can be tweaked and re purposed for multiple 
+*We will work on a **generic client management system**. It will be 
+something that can be tweaked and re purposed for multiple 
 applications—for a supplier managing customers, a health service 
 managing patients, and so on. It will perform common tasks found over 
 and over in real-world Line of Business (LOB) applications, principally 
