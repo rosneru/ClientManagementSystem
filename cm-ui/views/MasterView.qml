@@ -1,4 +1,5 @@
 import QtQuick 2.8
+import QtQuick.Controls 2.0
 import QtQuick.Window 2.0
 
 Window {
@@ -7,8 +8,8 @@ Window {
   height: 480
   title: qsTr("Client Management")
 
-  Text {
-    id: text1
-    text: masterController.ui_welcomeMessage
+  StackView {
+    id: contentFrame
+    initialItem: "qrc:/views/SplashView.qml"
   }
 }
