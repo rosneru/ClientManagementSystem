@@ -1,3 +1,6 @@
+include(../qmake-target-platform.pri)
+include(../qmake-destination-path.pri)
+
 QT       -= gui
 
 TARGET = cm-lib
@@ -15,3 +18,11 @@ SOURCES += source/models/client.cpp \
 HEADERS += source/cm-lib_global.h \
            source/models/client.h \
     source/controllers/mastercontroller.h
+
+message(cm-lib project dir: $${PWD})
+DESTDIR = $$PWD/../binaries/$$DESTINATION_PATH
+OBJECTS_DIR = $$PWD/build/$$DESTINATION_PATH/.obj
+MOC_DIR = $$PWD/build/$$DESTINATION_PATH/.moc
+RCC_DIR = $$PWD/build/$$DESTINATION_PATH/.qrc
+UI_DIR = $$PWD/build/$$DESTINATION_PATH/.ui
+message(cm-lib output dir: $${DESTDIR})
