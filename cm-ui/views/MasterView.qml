@@ -13,4 +13,6 @@ Window {
     anchors.fill: parent
     initialItem: "qrc:/views/SplashView.qml"
   }
+
+  Component.onCompleted: contentFrame.replace("qrc:/views/DashboardView.qml");
 }
