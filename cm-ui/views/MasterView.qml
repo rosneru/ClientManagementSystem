@@ -10,6 +10,7 @@ Window {
 
   StackView {
     id: contentFrame
+    anchors.fill: parent
     initialItem: "qrc:/views/SplashView.qml"
   }
 }

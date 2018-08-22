@@ -1,7 +1,10 @@
 import QtQuick 2.8
 
 Rectangle {
-  width: 400
-  height: 200
+  anchors.fill: parent
   color: "#f4c842"
+  Text {
+    anchors.centerIn: parent
+    text: "Splash View"
+  }
 }
