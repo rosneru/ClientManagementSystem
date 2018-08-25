@@ -13,12 +13,12 @@ DEFINES += CMLIB_LIBRARY
 INCLUDEPATH += source
 
 SOURCES += source/models/client.cpp \
-    source/controllers/mastercontroller.cpp
+    source/controllers/master-controller.cpp
 
 HEADERS += source/cm-lib_global.h \
            source/models/client.h \
-    source/controllers/mastercontroller.h \
-    source/controllers/navigation-controller.h
+    source/controllers/navigation-controller.h \
+    source/controllers/master-controller.h
 
 message(cm-lib project dir: $${PWD})
 DESTDIR = $$PWD/../binaries/$$DESTINATION_PATH

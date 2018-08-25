@@ -2,7 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 
-#include "controllers/mastercontroller.h"
+#include "controllers/master-controller.h"
 
 int main(int argc, char *argv[])
 {

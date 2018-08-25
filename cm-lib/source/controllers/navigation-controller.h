@@ -13,8 +13,8 @@ class CMLIBSHARED_EXPORT NavigationController : public QObject
   Q_OBJECT
 
 public:
-  explicit NavigationController(QObject* parent = nullptr)
-    : QObject(parent)
+  explicit NavigationController(QObject* _parent = nullptr)
+    : QObject(_parent)
   {}
 
 
