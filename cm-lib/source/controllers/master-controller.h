@@ -14,7 +14,7 @@ namespace controllers {
 class CMLIBSHARED_EXPORT MasterController : public QObject
 {
   Q_OBJECT
-  Q_PROPERTY( QString ui_welcomeMessage MEMBER welcomeMessage CONSTANT )
+  Q_PROPERTY( QString ui_welcomeMessage READ welcomeMessage CONSTANT )
   Q_PROPERTY( cm::controllers::NavigationController* ui_navigationController READ navigationController CONSTANT )
 
 
